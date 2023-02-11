@@ -265,12 +265,14 @@ header .navbar ul li a:hover {
   color: #fff;
   border-radius: 5rem;
   padding: .5rem 2.5rem;
+  
 }
 
 .education .box-container .box h3 {
   font-size: 2rem;
   color: rgb(53, 51, 51);
   padding-top: 1.5rem;
+ 
 }
 
 .education .box-container .box p {
@@ -291,6 +293,7 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: rgb(51, 50, 50);
   background: var(--yellow);
+  
 }
 
 .heading-pro {
@@ -310,12 +313,12 @@ header .navbar ul li a:hover {
 
 .project .box-container {
   display: flex;
-  height: 45rem;
+  height: 100rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
-  /* border: 2px solid red; */
+  
   margin-top: 30px;
 }
 
@@ -846,16 +849,20 @@ text.ContributionCalendar-label {
   }
 
   .heading {
-    margin-top: -90px;
+    margin-top: -10px;
+   
 
   }
 
   .about .row .counter .box {
     width: 100%;
+    
   }
 
   .education .box-container .box {
     width: 100%;
+    
+    
   }
 
   .project .box-container .box {
@@ -868,17 +875,17 @@ text.ContributionCalendar-label {
   }
 
   .heading-pro {
-    margin-top: -180px;
+    margin-top: 180px;
   }
 
   .heading-skill {
-    margin-top: 100px;
+    margin-top: 800px;
   }
 
   .skill .box-container .box {
     width: 30%;
     height: 13rem;
-    border: 3px solid red;
+    
 
   }
 
@@ -887,6 +894,6 @@ text.ContributionCalendar-label {
   }
 
   .calen img {
-    width: 175px;
+    width: 185px;
   }
 }
