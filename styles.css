@@ -313,12 +313,12 @@ header .navbar ul li a:hover {
 
 .project .box-container {
   display: flex;
-  height: 100rem;
+  height: 130rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 2rem 0;
-  
+  padding: 5rem 0;
+ /* border: 2px solid red;*/
   margin-top: 30px;
 }
 
@@ -327,7 +327,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
   justify-content: space-between;
   width: 40rem;
-  height: 49rem;
+  height: 60rem;
   border-radius: 1rem;
   margin: 2rem;
   overflow: hidden;
@@ -337,10 +337,14 @@ header .navbar ul li a:hover {
   margin-top: -10px;
   background-color: #90a4ae;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
+  /*border: 2px solid red;*/
 
 }
-
+.tec>h4{
+  margin-left: 130px;
+  font-size: 20px;
+  margin-top: 10px;
+}
 .project .box-container .box h2 {
 
   text-align: center;
@@ -364,6 +368,7 @@ header .navbar ul li a:hover {
 
 .project .box-container .box p {
   text-align: center;
+  margin-left: 15px;
 }
 
 .project .box-container .box img {
