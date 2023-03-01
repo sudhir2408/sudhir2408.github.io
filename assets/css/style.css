@@ -511,7 +511,8 @@ img {
     display: flex;
     flex-direction: column;
     flex-flow: column;
-    background-color: #6b2128;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+     background-color: #eeeeee; 
     color: var(--first-color-lighten);
     border-radius: .5rem;
     padding: 1rem;
@@ -543,6 +544,7 @@ img {
 .skills__title {
     position: absolute;
     bottom: 0;
+    color: #000;
     align-self: center;
     padding: 1rem;
     margin-bottom: var(--mb-2);
@@ -745,7 +747,7 @@ img {
     display: flex;
    
     height: 250px;
-    background-color:#2f0a0d;
+    /* background-color:#2f0a0d; */
     margin-top: 20px;
     width: 100%;
    border-radius: 10px;
@@ -1032,39 +1034,7 @@ img {
 
 
 /* ===Footer=== */
-.footer {
-    background-color: var(--first-color-dark);
-    color: var(--first-color-lighten);
-    text-align: center;
-}
 
-.footer__container {
-    padding: 2rem 0;
-}
-
-.footer__title {
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-semi-bold);
-    margin-bottom: var(--mb-1);
-}
-
-.footer__description {
-    margin-bottom: var(--mb-3);
-}
-
-.footer__copy {
-    font-size: var(--small-font-size);
-    color: var(--first-color-light);
-}
-
-.footer__link {
-    color: #9c767f;
-}
-
-.footer__link:hover {
-    cursor: pointer;
-    color: var(--first-color-lighten);
-}
 
 /* ===Media Queries=== */
 @media screen and (min-width: 576px) {
