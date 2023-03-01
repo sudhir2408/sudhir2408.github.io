@@ -9,7 +9,7 @@ function changetitle(){
             document.title = "Hire Me!";
         }
         else {
-            document.title = "Raynal | Java developer";
+            document.title = "Sudhir | Java Backend developer";
         }
         interval_no++;
 }
