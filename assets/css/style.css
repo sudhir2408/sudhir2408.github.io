@@ -511,9 +511,8 @@ img {
     display: flex;
     flex-direction: column;
     flex-flow: column;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
-     background-color: #eeeeee; 
-    color: var(--first-color-lighten);
+    background-color: #dfdcdc;
+    color: rgb(34, 34, 34);
     border-radius: .5rem;
     padding: 1rem;
     text-align: center;
@@ -544,7 +543,6 @@ img {
 .skills__title {
     position: absolute;
     bottom: 0;
-    color: #000;
     align-self: center;
     padding: 1rem;
     margin-bottom: var(--mb-2);
@@ -623,15 +621,26 @@ img {
 
   .calendar {
      
-      font-family: Helvetica, arial;
+      /* font-family: Helvetica, arial;
       border: 0px solid #DDDDDD;
       border-radius: 3px;
       height: 300px;
       text-align: center;
       margin-top:20px;
      background-color: white;
-     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
       
+  /* border: 5px solid red;
+    font-family: Helvetica, arial;
+    /* border: 0px solid #DDDDDD; */
+    /* border-radius: 3px;
+    height: 263px;
+    text-align: center;
+    margin-top:40px;
+    color: white;  */
+    
+
   }
   
   .calendar-graph text.wday,
@@ -718,9 +727,14 @@ img {
       color: black;
   }
   
+  /* #github1{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin: auto;
+} */
 
-/* =================My GitHub Calendar================ */
-
+/*=================My GitHub Calendar================ */
+ 
   .github-cont{
     margin-top: 10%;
    
@@ -747,7 +761,7 @@ img {
     display: flex;
    
     height: 250px;
-    /* background-color:#2f0a0d; */
+    background-color:#fcf6f7;
     margin-top: 20px;
     width: 100%;
    border-radius: 10px;
@@ -758,7 +772,7 @@ img {
     width: 50%;
     height: 80%;
     margin-top: 30px;
-  }
+  } 
 
  
 
@@ -1034,7 +1048,39 @@ img {
 
 
 /* ===Footer=== */
+.footer {
+    background-color: var(--first-color-dark);
+    color: var(--first-color-lighten);
+    text-align: center;
+}
 
+.footer__container {
+    padding: 2rem 0;
+}
+
+.footer__title {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-1);
+}
+
+.footer__description {
+    margin-bottom: var(--mb-3);
+}
+
+.footer__copy {
+    font-size: var(--small-font-size);
+    color: var(--first-color-light);
+}
+
+.footer__link {
+    color: #9c767f;
+}
+
+.footer__link:hover {
+    cursor: pointer;
+    color: var(--first-color-lighten);
+}
 
 /* ===Media Queries=== */
 @media screen and (min-width: 576px) {
